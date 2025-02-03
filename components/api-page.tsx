@@ -437,8 +437,8 @@ export default function APIPage() {
         )}
       </header>
 
-      <main className={`flex-1 flex flex-col items-center justify-center p-4 ${spaceMono.className} mt-[-100px]`}>
-        <div className="max-w-2xl w-full space-y-12 text-center">
+      <main className={`flex-1 flex flex-col items-center justify-center p-8 ${spaceMono.className} mt-[96px] md:mt-[80px]`}>
+        <div className="max-w-2xl w-full space-y-12 text-center pt-8">
           <div className="space-y-4">
             <h1 className={`text-4xl font-bold text-[#FFC700] ${ibmPlexSans.className}`}>Collab.Land API Server</h1>
             <p className={`text-xl ${spaceMono.className}`}>Version 1.0.0</p>
